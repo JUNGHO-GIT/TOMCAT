@@ -6,20 +6,6 @@
   <Listener className='org.apache.catalina.mbeans.GlobalResourcesLifecycleListener'/>
   <Listener className='org.apache.catalina.core.ThreadLocalLeakPreventionListener'/>
 
-  <!-- GlobalNamingResources 추가 설정 -->
-  <GlobalNamingResources>
-    <Resource name="jdbc/YourDB"
-      auth="Container"
-      type="javax.sql.DataSource"
-      maxTotal="100"
-      maxIdle="30"
-      maxWaitMillis="10000"
-      username="db_user"
-      password="db_pass"
-      driverClassName="com.mysql.jdbc.Driver"
-      url="jdbc:mysql://localhost:3306/yourdb" />
-  </GlobalNamingResources>
-
   <!-- Service 내 Connector 설정 -->
   <Service name='Catalina'>
     <Connector port="8080" protocol="HTTP/1.1"
