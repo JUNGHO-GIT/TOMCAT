@@ -47,8 +47,6 @@
         <Valve className='org.apache.catalina.valves.AccessLogValve' directory='logs'
           prefix='localhost_access_log' suffix='.txt'
           pattern='%h %l %u %t &quot;%r&quot; %s %b' />
-        <!-- 정적 리소스 캐싱 -->
-        <Context cacheMaxSize="100000" cacheTTL="60000" />
       </Host>
     </Engine>
   </Service>
