@@ -6,6 +6,15 @@
   <Listener className='org.apache.catalina.mbeans.GlobalResourcesLifecycleListener'/>
   <Listener className='org.apache.catalina.core.ThreadLocalLeakPreventionListener'/>
 
+  <!-- GlobalNamingResources 설정 -->
+  <GlobalNamingResources>
+    <Resource name='UserDatabase' auth='Container'
+      type='org.apache.catalina.UserDatabase'
+      description='User database that can be updated and saved'
+      factory='org.apache.catalina.users.MemoryUserDatabaseFactory'
+      pathname='conf/tomcat-users.xml' />
+  </GlobalNamingResources>
+
   <!-- Service 내 Connector 설정 -->
   <Service name='Catalina'>
     <Connector port="8080" protocol="HTTP/1.1"
