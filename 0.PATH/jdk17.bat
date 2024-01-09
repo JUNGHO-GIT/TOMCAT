@@ -13,8 +13,8 @@ set "MAVEN_HOME=C:\JUNGHO\1.Language\5.Maven"
 set "GRADLE_HOME=C:\JUNGHO\1.Language\6.Gradle"
 set "MONGOD_HOME=C:\JUNGHO\5.SQL\0.MongoDB"
 set "MYSQL_HOME=C:\JUNGHO\5.SQL\1.MySQL"
-set "JAVA_TOOLS_OPTIONS=-Xms1g -Xmx6g -XX:MaxMetaspaceSize=2g -XX:ReservedCodeCacheSize=512m -XX:+UseG1GC -XX:+UseCompressedOops -XX:+UseStringDeduplication -XX:+JITServerUseAOTCache -XX:+PortableSharedCache -XX:+EnableCPUMonitor -XX:+GlobalLockReservation -XX:+IdleTuningCompactOnIdle -XX:NativeMemoryTracking=summary -XX:+TransparentHugePage -XX:+CompactStrings -XX:+DisableExplicitGC -XX:+EnableDynamicAgentLoading -XX:+UseContainerSupport -XX:+UseJITServer -Dfile.encoding=UTF-8"
-set "CATALINA_OPTS=-Xms1g -Xmx6g -XX:MaxMetaspaceSize=2g -XX:ReservedCodeCacheSize=512m -XX:+UseG1GC -XX:+UseCompressedOops -XX:+UseStringDeduplication -XX:+JITServerUseAOTCache -XX:+PortableSharedCache -XX:+EnableCPUMonitor -XX:+GlobalLockReservation -XX:+IdleTuningCompactOnIdle -XX:NativeMemoryTracking=summary -XX:+TransparentHugePage -XX:+CompactStrings -XX:+DisableExplicitGC -XX:+EnableDynamicAgentLoading -XX:+UseContainerSupport -XX:+UseJITServer -Dfile.encoding=UTF-8"
+set "JAVA_TOOLS_OPTIONS=-Xms1g -Xmx4g -XX:MaxMetaspaceSize=2g -XX:ReservedCodeCacheSize=512m -XX:+UseG1GC -XX:+UseCompressedOops -XX:+UseStringDeduplication -XX:+JITServerUseAOTCache -XX:+PortableSharedCache -XX:+EnableCPUMonitor -XX:+GlobalLockReservation -XX:+IdleTuningCompactOnIdle -XX:NativeMemoryTracking=summary -XX:+TransparentHugePage -XX:+CompactStrings -XX:+DisableExplicitGC -XX:+EnableDynamicAgentLoading -XX:+UseContainerSupport -XX:+UseJITServer -Dfile.encoding=UTF-8"
+set "CATALINA_OPTS=-Xms1g -Xmx4g -XX:MaxMetaspaceSize=2g -XX:ReservedCodeCacheSize=512m -XX:+UseG1GC -XX:+UseCompressedOops -XX:+UseStringDeduplication -XX:+JITServerUseAOTCache -XX:+PortableSharedCache -XX:+EnableCPUMonitor -XX:+GlobalLockReservation -XX:+IdleTuningCompactOnIdle -XX:NativeMemoryTracking=summary -XX:+TransparentHugePage -XX:+CompactStrings -XX:+DisableExplicitGC -XX:+EnableDynamicAgentLoading -XX:+UseContainerSupport -XX:+UseJITServer -Dfile.encoding=UTF-8"
 
 setx JAVA_HOME "%JAVA_HOME%" /M
 setx JAVA_HOME2 "%JAVA_HOME2%" /M
